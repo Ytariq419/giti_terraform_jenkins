@@ -1,10 +1,12 @@
 # giti_terraform_jenkins
 
-Important
+**Important**
+```
 User: admin
 Password: cecebb3a6dc34050bcc2c27b5568bb7a
 
 Or to retrieve password use: sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+```
 
 Always install suggested plug-ins
 
