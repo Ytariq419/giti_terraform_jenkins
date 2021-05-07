@@ -1,21 +1,26 @@
 # giti_terraform_jenkins
 
 **Important**
+
 ```
+Retrieving Admin Password for initial login:
 User: admin
-Password: cecebb3a6dc34050bcc2c27b5568bb7a
-
-Or to retrieve password use: sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+Password: to retrieve password use: sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 
-Always install suggested plug-ins
+**Plugins**
 
-Make sure to have your desired plug-ins installed. To do so:
-Manage Jenkins>Manage Plug-ins> Click on Available tab >Search for desired plug-in. 
+Always install suggested plug-ins + Make sure you have your desired plug-ins installed. 
+```
+To install plugins from the dashboard
 
-To add a worker node. From the Dashboard:
+Jenkins > Manage Plug-ins > Click on Available tab > Search for desired plug-in. 
+```
+
+To add a worker node from the Dashboard:
 
 On your master machine go to Manage Jenkins > Manage Nodes.
+
 New Node
 	a.	Enter Node Name
 	b.	Select Permanent Agent 
