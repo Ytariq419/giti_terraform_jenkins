@@ -12,7 +12,7 @@ Password: to retrieve password use: sudo cat /var/lib/jenkins/secrets/initialAdm
 
 Always install suggested plug-ins + Make sure you have your desired plug-ins installed. 
 ```
-**To install plugins from the dashboard**
+To install plugins from the dashboard
 
 Jenkins > Manage Plug-ins > Click on Available tab > Search for desired plug-in. 
 ```
